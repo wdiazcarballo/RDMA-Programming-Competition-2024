@@ -3,10 +3,10 @@
  *
  * See file LICENSE for terms.
  */
-#include "config.h"
-#include "tl_ucp.h"
-#include "allreduce.h"
-#include "utils/ucc_coll_utils.h"
+#include <config.h>
+#include <tl_ucp.h>
+#include <allreduce.h>
+#include <utils/ucc_coll_utils.h>
 
 ucc_base_coll_alg_info_t
     ucc_tl_ucp_allreduce_algs[UCC_TL_UCP_ALLREDUCE_ALG_LAST + 1] = {

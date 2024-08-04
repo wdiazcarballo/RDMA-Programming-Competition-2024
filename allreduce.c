@@ -6,7 +6,7 @@
 #include "config.h"
 #include "tl_ucp.h"
 #include "allreduce.h"
-#include "ucc_coll_utils.h"
+#include "utils/ucc_coll_utils.h"
 
 // Define the ucc_tl_ucp_team_t structure
 typedef struct ucc_tl_ucp_team {

@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -I/global/home/users/rdmaworkshop08/local/ucc/src -I/global/home/users/rdmaworkshop08/local/ucc/src/ucc -I/global/home/users/rdmaworkshop08/local/ucc/src/components/tl/ucp
+CFLAGS = -I/global/home/users/rdmaworkshop08/wdc/RDMA-Programming-Competition-2024 -I/global/home/users/rdmaworkshop08/local/ucc/src -I/global/home/users/rdmaworkshop08/local/ucc/src/ucc -I/global/home/users/rdmaworkshop08/local/ucc/src/components/tl/ucp
 LDFLAGS = -lucc -lucp -lucs
 TARGET = allreduce
 

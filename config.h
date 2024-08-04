@@ -1,6 +1,8 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+#define UCS_HAVE_PARSER_SET_VALUE_TABLE_PREFIX
+
 // Define Allreduce Algorithms
 #define UCC_TL_UCP_ALLREDUCE_ALG_KNOMIAL       0
 #define UCC_TL_UCP_ALLREDUCE_ALG_SRA_KNOMIAL   1

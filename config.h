@@ -1,6 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// Ensure UCS_HAVE_PARSER_SET_VALUE_TABLE_PREFIX is defined for compatibility
 #define UCS_HAVE_PARSER_SET_VALUE_TABLE_PREFIX
 
 // Define Allreduce Algorithms

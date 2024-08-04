@@ -2,7 +2,7 @@ HOMELOCAL = /global/home/users/rdmaworkshop08/local
 WORKING = /global/home/users/rdmaworkshop08/wdc/RDMA-Programming-Competition-2024
 UCCSRC = $(HOMELOCAL)/ucc/src
 CC = gcc
-CFLAGS = -I$(WORKING) -I$(UCCSRC)/components/tl/ucp -I$(UCCSRC)/components/tl/ucp/allreduce
+CFLAGS = -I$(WORKING) -I$(UCCSRC) -I$(UCCSRC)/components/tl/ucp -I$(UCCSRC)/components/tl/ucp/allreduce
 LDFLAGS = -lucc -lucp -lucs
 TARGET = allreduce
 
